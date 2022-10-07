@@ -1,0 +1,278 @@
+*{
+
+    margin:0px;
+    padding:0px;
+    
+    }
+    
+    
+    html {
+      background-image: url(fondo2.jpg);
+    }
+    
+     header{
+  
+      background-image: url(fondoamarillo.jpeg);
+      position: fixed;
+      width: 100%;
+      height: 100%;
+    font:bold 30px britannic bold,san-serif; text-align:center;
+    color: blue;
+    
+    }
+  
+    h1{
+      color: blue;
+    font:bold 60px verdana,san-serif;
+    }
+    
+    h2{
+    color: blue;
+    font:bold 20px verdana,san-serif;
+    
+    }
+    
+    body{
+    
+    
+    
+    text-align:center;
+    
+    }
+  
+    p{
+      color:rgb(255, 0, 0);
+      text-align: justify;
+    }
+    
+    #agrupar{
+    
+    width:90%;
+    
+    margin:15px auto;
+    
+    text-align:left;
+    
+    }
+    
+  header{
+  
+    background-image: url(fondoverde.jpeg);
+    position: relative;
+    width: 100%;
+    height: 75px;
+    font-size: medium;
+    }
+  
+    nav {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-items: center;
+      align-items: center; 
+      font-size: 20px;
+      font-weight: bolder;
+      background-image: url(fondoamarillo.jpeg);
+      -webkit-box-shadow: 1px 1px 8px #292929;
+      -moz-box-shadow: 1px 1px 7px #292929 ;
+      box-shadow: 1px 1px 8px #000000;
+  }
+  
+  nav ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  
+  }
+  
+  nav ul li{
+      display: inline-block;
+  
+  }
+  
+  nav ul li a{
+      color: #ffffff;
+      display: block;
+      padding: 20px 50px;
+      text-decoration: none;
+  
+  } 
+  
+  a:hover {
+      color: #5EE0c2;
+  }
+    
+    menu{
+    
+    background:while;
+    
+    padding:5px 15px;
+    
+    -webkit-box-shadow:1px 1px 7px #292929;
+    
+    -moz-box-shadow:1px 1px 7px #292929;
+    
+    box-shadow:1px 1px 7px #292929;
+    
+    color:#fff;
+    }
+    
+    menu li{
+    
+    display:inline-block;
+    
+    list-style:none-,
+    
+    padding: 5px 15px;
+    
+    font:bold 14px verdana,san-serif;
+    
+    }
+    
+    menu li:hover{
+    
+    background-color:red;
+    
+    }
+    
+    section {
+      width: 100%;
+      height: 100vh;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+  }
+  
+  p{
+      font-size: 15px;
+      text-align: justify;
+  }
+    
+    #columna{
+    
+    width:20%;
+    
+    margin:20px 0px;
+    
+    float :left;
+    
+    padding:20px;
+    
+    background:#fff;
+    
+    }
+    
+    #columna1{
+    
+    width:20%;
+    
+    margin:20px 0px;
+    
+    float :right;
+    
+    padding:20px;
+    
+    background:rgb(255, 255, 255);
+    
+    }
+    
+    #pie{
+    
+    clear:both;
+    
+    background:#fff;
+    
+    text-align:center;
+    
+    padding:20px;
+    
+    border-top: 2px solid #999999;
+    
+    }
+    
+    article{
+    
+    background:white;
+    
+    border: 1px solid #999999;
+    
+    padding:20px;
+    
+    margin-bottom:15px;
+    
+    }
+    
+    article footer{
+    
+    text-align:left;
+    
+    }
+    
+    time{
+    
+    color:"blue"
+    
+    }
+    
+    figcaption{
+    
+    font:italic 14px verdana,san-serif;
+    
+    }
+  
+    .capa {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(10, 3, 51, 0 );
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      transform: scale(0);
+      transition: .3s ease;
+  }
+  
+    #img{
+    
+        width:500px;
+        margin:20px auto;
+        overflow: hidden;
+    }
+    
+    #imagenes ul{
+      list-style: nome;
+      width:1500px;
+      display: flex;
+    
+      animation: slide 20s infinite alternate;
+    }
+  
+    .texto{
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+      margin-left: 10px;
+      margin-right: 10px;
+      color: blanchedalmond;
+  }
+  
+    @keyframes slide{
+     0% {margin-left: 0px;}
+     0% {margin-left: 0px;}
+    
+     25% {margin-left: -700px;}
+     45% {margin-left: -700px;}
+    
+     1000% {margin-left: -1000px;}
+     1000% {margin-left: -1000px;}
+    
+    
+    
+    }
